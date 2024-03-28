@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="/script/script.js" defer></script>
+    <title>Albert Eats</title>
+</head>
+<body>
+    <section id="loader">
+        <div class="loader__cercle"></div>
+        <p>Loading..</p>
+    </section>
+    <header>
+        <h1><img src="./assets/images/logo.png" alt="Albert Eats Logo"></h1>
+        <a href="https://media1.popsugar-assets.com/files/thumbor/UVZWgr-jlfaJ51pF_cFRhW-VEZk/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/09/16/663/n/1922564/48b8245059420cad_thumb_temp_image145852281410878603/i/Zoolander-Movie-GIFs.jpg" target="_blank" id="login">Login</a>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="London, Hackey">
+            </div>
+            <div id="reservation">
+                <h2 class="reservation__titre">Book the menu that suits you</h2>
+                <p class="reservation__texte">Discover exceptional restaurants, selected by us.</p>
+                <button>Explore our restaurants</button>
+            </div>
+        </section>
+        <section id="fonction">
+            <h2>Functioning</h2>
+            <div class="fonction__list">
+                <div class="fonction__list__element">
+                    <div class="fonction__list__button">
+                        <div class="fonction__list__button__content">
+                            <span class="fonction__list__element__nombre">1</span>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <p>Choose a restaurant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fonction__list__element">
+                    <div class="fonction__list__button">
+                        <div class="fonction__list__button__content">
+                            <span class="fonction__list__element__nombre">2</span>
+                            <i class="fa-solid fa-list-ul"></i>          
+                            <p>Compose your menu</p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="fonction__list__element">
+                    <div class="fonction__list__button">
+                        <div class="fonction__list__button__content">
+                            <span class="fonction__list__element__nombre">3</span>
+                            <i class="fa-solid fa-store"></i>
+                            <p>Enjoy at the restaurant</p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </section>
+        <section id="restaurants">
+            <div class="restaurants__list__content">
+                <h2>Restaurants</h2>
+                <div class="restaurants__list">
+                    <article class="card">
+                        <a href="./restaurants/wcdonalds.html">        
+                            <img src="./assets/images/1.png" alt="Image de l'hôtel du Port">
+                            <div class="card-txt">
+                                <h3 class="restaurants__card__title">Wcdonald's &copy;</h3>
+                                <p class="restaurants__card__subtitle">Hackney</p>
+                            </div>
+                        </a>
+                        <input type="checkbox">
+                        <i class="fa-regular fa-heart heart--normal"></i>
+                        <i class="fa-solid fa-heart heart--full"></i>
+                        <p class="restaurants__card__nouveau">New</p>
+                    </article>
+                    <article class="card">
+                        <a href="./restaurants/burgerkink.html">        
+                            <img src="./assets/images/2.png" alt="Image de l'hôtel du Port">
+                            <div class="card-txt">
+                                <h3 class="restaurants__card__title">Burger Kink &copy;</h3>
+                                <p class="restaurants__card__subtitle">Newham</p>
+                            </div>
+                        </a>
+                        <input type="checkbox">
+                        <i class="fa-regular fa-heart heart--normal"></i>
+                        <i class="fa-solid fa-heart heart--full"></i>
+                        <p class="restaurants__card__nouveau">New</p>
+                    </article>
+                    <article class="card">
+                        <a href="./restaurants/starducks.html">        
+                            <img src="./assets/images/3.png" alt="Image de l'hôtel du Port">
+                            <div class="card-txt">
+                                <h3 class="restaurants__card__title">Starducks Coffee &copy;</h3>
+                                <p class="restaurants__card__subtitle">City</p>
+                            </div>
+                        </a>
+                        <input type="checkbox">
+                        <i class="fa-regular fa-heart heart--normal"></i>
+                        <i class="fa-solid fa-heart heart--full"></i>
+                    </article>
+                    <article class="card">
+                        <a href="./restaurants/fourguys.html">        
+                            <img src="./assets/images/4.png" alt="Image de l'hôtel du Port">
+                            <div class="card-txt">
+                                <h3 class="restaurants__card__title">Four Guys &copy;</h3>
+                                <p class="restaurants__card__subtitle">Camden</p>
+                            </div>
+                        </a>
+                        <input type="checkbox">
+                        <i class="fa-regular fa-heart heart--normal"></i>
+                        <i class="fa-solid fa-heart heart--full"></i>
+                    </article>
+                    <article class="card">
+                        <a href="./restaurants/metro.html">        
+                            <img src="./assets/images/5.png" alt="Image de l'hôtel du Port">
+                            <div class="card-txt">
+                                <h3 class="restaurants__card__title">Metro &copy;</h3>
+                                <p class="restaurants__card__subtitle">Leicester Square</p>
+                            </div>
+                        </a>
+                        <input type="checkbox">
+                        <i class="fa-regular fa-heart heart--normal"></i>
+                        <i class="fa-solid fa-heart heart--full"></i>
+                    </article>
+                    <article class="card">
+                        <a href="./restaurants/drunkin.html">        
+                            <img src="./assets/images/6.png" alt="Image de l'hôtel du Port">
+                            <div class="card-txt">
+                                <h3 class="restaurants__card__title">Drunkin' Donuts &copy;</h3>
+                                <p class="restaurants__card__subtitle">Hackney</p>
+                            </div>
+                        </a>
+                        <input type="checkbox">
+                        <i class="fa-regular fa-heart heart--normal"></i>
+                        <i class="fa-solid fa-heart heart--full"></i>
+                    </article>
+                </div>           
+            </div>
+        </section>
+    </main>
+    <footer>
+            <h3><img src="./assets/images/logo.png" alt="ALbert Eats Logo"></h3>
+            <div class="footer__content__forreverse">
+                <div class="footer__content__block">
+                    <div class="footer__content__block__texte">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>Suggest a restaurant</p>
+                    </div>
+                    <div class="footer__content__block__texte">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                        <p>Become partner</p>
+                    </div>
+                </div>
+                <div class="mentions">
+                    <p>Legal notice</p>
+                    <p><a href="mailto:contact@example.com">Contact</a></p>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

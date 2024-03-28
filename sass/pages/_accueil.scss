@@ -1,0 +1,225 @@
+@import '../abstracts/variables';
+
+/*SCSS INTRO DEBUT*/
+
+#intro {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .location {
+        background-color: $light-grey;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        position: relative;
+
+        i {
+            color: $light-black;
+            margin-right: 20px;
+        }
+
+        input {
+            border: none;
+            background-color: transparent;
+            width: 120px;
+            font-size: 16px;
+
+            &::placeholder {
+                color: $light-black;
+            }
+        }
+    }
+    #reservation {
+        background-color: $second-lightgrey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 250px;
+
+        .reservation__titre {
+            font-weight: 700;
+            margin-top: 39px;
+        }
+
+        .reservation__texte {
+            font-weight: 300;
+            font-size: 18px;
+            margin-top: 11px;
+            color: $light-black;
+        }
+    }
+}
+
+/*SCSS INTRO FIN*/
+
+/*SCSS FONCTION DEBUT*/
+
+#fonction {
+    height: 392px;
+    width: 100%;
+
+    h2 {
+        margin: 48px 0 26px 20px;
+    }
+
+    .fonction__list {
+        display: flex;
+        flex-direction: column;
+
+        .fonction__list__element {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 24px;
+            height: 72px;
+
+            .fonction__list__button {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row; 
+                background-color: $second-lightgrey;
+                width: 100%;
+                margin: 0 32px;
+                height: 72px;  
+                border-radius: 20px; 
+                box-shadow: 0px 4px 15px 0px #00000026;
+
+                @media screen and (min-width: 768px) and (max-width: 1023px) {
+        
+                   
+
+                }
+
+                .fonction__list__button__content {
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    align-items: center;
+
+                    .fonction__list__element__nombre {
+                        background-color: $green;
+                        color: white;
+                        width: 24px;
+                        height: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 25px;
+                        margin-left: -15px;
+                        left: 20px;
+                    }
+
+                    i {
+                        color: $hard-grey;
+                        margin-left: 32px;
+                        transition: color 400ms ease;
+
+                        @media screen and (min-width: 768px) and (max-width: 1023px) {
+        
+                            margin-left: 10px;
+
+                        }
+                    }
+
+                    p {
+                        font-weight: 500;
+                        margin-left: 27px;
+                        padding-right: 5px;
+
+                        @media screen and (min-width: 768px) and (max-width: 1023px) {
+        
+                            margin-left: 10px;
+
+                        }
+                    }
+                }
+
+                &:hover {
+                    i {
+                        color: $green;
+                    }
+                }  
+            }
+        }
+    }
+
+    @media (min-width: 425px) {
+
+        .fonction__list {
+            .fonction__list__element {
+                .fonction__list__button {
+                    width: 325px;    
+                }    
+            }
+        }
+    }
+
+
+    @media (min-width: 768px) {
+
+        max-width: 1053px;
+        height: 250px;
+
+        .fonction__list {
+            flex-direction: row;
+            .fonction__list__element{
+                .fonction__list__button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/*SCSS FONCTION FIN*/
+
+/*SCSS RESTAURANT DEBUT*/
+
+#restaurants {
+    height: 1720px ;
+    width: 100%;
+    background-color: $second-lightgrey; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    
+    @media (min-width: 760px) {
+        display: flex;//
+        justify-content: center;//
+        height: 970px;      
+    }
+
+    .restaurants__list__content{
+        width: 100%;
+        max-width: 1053px;
+
+        h2{
+            margin: 30px 0 12px 20px;
+
+        }
+
+        .restaurants__list {
+
+            width: calc(100% - 40px);
+
+            @media (min-width: 760px) {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin: 20px;
+                 
+            }
+        }
+    }
+    
+}
+
+/*SCSS RESTAURANT FIN*/
