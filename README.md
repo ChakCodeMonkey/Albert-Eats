@@ -24,7 +24,7 @@ Installation
 
 GitHub Pages
 
-The project is also published on GitHub Pages for those interested in viewing it live. You can access it here.
+The project is also published on GitHub Pages for those interested in viewing it live. You can access it [here](https://chakcodemonkey.github.io/Albert-Eats/).
 
 ----------
 
