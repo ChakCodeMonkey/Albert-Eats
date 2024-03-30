@@ -1,4 +1,4 @@
-# ALbert Eats
+# Albert Eats
 
 ![Sreenshot-Albert-Eats](./assets/images/Albert-Eats-Full-Screen.png)
 
