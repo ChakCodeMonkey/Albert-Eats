@@ -1,4 +1,8 @@
-Hello, I'm working on a project called Albert Eats, which is a front-end clone of Uber Eats. The goal of this project is to recreate the user interface and experience of Uber Eats, allowing users to browse through food options, view details, and place orders.
+# ALbert Eats
+
+![Sreenshot-Albert-Eats](./assets/images/Albert-Eats-Full-Screen.png)
+
+This is Albert Eats, which is a front-end clone of Uber Eats. The goal of this project is to recreate the user interface and experience of Uber Eats, allowing users to browse through food options, view details, and place orders.
 
 ----------
 
